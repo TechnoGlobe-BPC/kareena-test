@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#main {
+
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    background-image: linear-gradient(to left, #8f42ec, skyblue);
+}
+
+/* header section */
+#header {
+    display: flex;
+    background-color: transparent;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+#header .head,
+#navbar {
+    display: flex;
+    margin: 0px;
+}
+
+#header .head {
+    /* right: 0px; */
+    /* position: relative; */
+    /* top: 10px; */
+    /* padding: 5px;
+    margin: 10px; */
+
+}
+
+#header .head h1 {
+    font-family: times;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+#header .head h4 {
+    top: 36px;
+    left: -30px;
+    position: relative;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: rgba(50, 20, 50, 0.6);
+}
+
+/* navbar section */
+#navbar ul {
+    display: flex;
+    /* position: relative; */
+    /* left: 120px; */
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 20px 25px;
+    /* display: flex; */
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* HOVER */
+#navbar ul li:hover {
+    background-color: #fff;
+    color: navy;
+    border-radius: 3px;
+}
+
+#navbar .item5 button {
+    background-color: #fff;
+    border-radius: 26px;
+    padding: 0px 8px;
+    border: none;
+}
+
+#navbar .item5 button a {
+    color: rgb(237, 65, 185);
+    font-size: 1rem;
+
+}
+
+#navbar .item5 button a:hover {
+    background-color: transparent;
+    color: rgb(237, 65, 185);
+
+
+}
+
+/* hoverable content  */
+
+#navbar .content1 {
+    display: none;
+
+
+}
+
+#navbar ul li:hover .content1 {
+    position: absolute;
+    top: 21px;
+    display: inline-block;
+    background-color: #fff;
+    left: -200px;
+}
+
+#navbar .content1 {
+    padding: 20px;
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+
+
+/* text */
+.box,
+.box2 {
+padding-left: 50px;
+padding-top: 10px;
+
+
+}
+
+.text1,
+.text2,
+.text3,
+.rate {
+    color: #fff;
+    background-color: transparent;
+}
+
+.box 
+.text1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.box2 {
+    width: 600px;
+}
+
+.box2 .text2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.box2 .text3 {
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+.box2 .text4 {
+    margin-top: 25px;
+
+}
+
+.box2 #btn {
+    background-color: rgb(237, 65, 185);
+    padding: 12px 26px;
+    border: none;
+    border-radius: 28px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+@media screen and (min-width:480px){
+    .icon{
+        display:block;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+}
+
+    
+}
+/* 
+@media screen and (max-width:986px) {
+    #navbar {
+        display: none;
+    }
+    .head {       
+position: relative;
+
+
+        }
+
+    }
+
+    .box,
+    .box2 {
+        position: relative;
+        left: -140px;
+    }
+
+@media screen and (min-width:600px) {
+
+    .box,
+    .box2 {
+        position: relative;
+        left:-40px;
+        top:-20px;
+        width: 400px;
+    }
+    .box .text1{
+        font-size: 2.5rem;
+    }
+
+    .box2 .text2{
+        font-size: 1.2rem;
+        margin-top: -10px;
+        text-align:justify;
+        display: flex;
+        
+    }
+
+} */
